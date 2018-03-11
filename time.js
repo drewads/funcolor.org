@@ -16,6 +16,14 @@ function getTime(){
 		hours -= 12;
 		amPm = "pm";
 	}
+	else if (hours = 12)
+	{
+		amPm = "pm";
+	}
+	else if (hours = 0)
+	{
+		hours = 12;
+	}
 	if (minutes <= 9)
 	{
 		minutes = "0" + minutes;
