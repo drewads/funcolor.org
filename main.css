@@ -1,0 +1,48 @@
+body
+{
+	font-family: 'Oswald', sans-serif;
+	background-color: #5991ea;
+	color: pink;
+}
+
+.time
+{
+	text-align: center;
+	font-size: 10vw;
+}
+
+.name
+{
+	text-align: center;
+	font-size: 12vw;
+	color: pink;
+	font-weight: bold;
+}
+
+.colorButtonParent
+{
+	margin: auto;
+	width: 20vw;
+}
+
+.colorButton
+{
+	font-family: 'Oswald', sans-serif;
+	width: 20vw;
+	border: none;
+	text-align: center;
+	background-color: pink;
+	color: black;
+	font-size: 3.5vw;
+	margin-top: 40px;
+	border-radius: 20px;
+}
+
+button:focus {
+	outline: 0;
+}
+
+button:hover {
+	color: pink;
+	background-color: black;
+}
